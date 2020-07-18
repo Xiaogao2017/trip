@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>旅游-搜索</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/routing_list.css">
+    <link rel="stylesheet" href="css/myHeader.css">
+    <style>
+        p{
+            font-size: 12px;
+        }
+    </style>
+    <script src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+<!--引入头部-->
+<div id="header"></div>
+<div class="page_one">
+    <div class="contant">
+        <div class="crumbs">
+            <img src="img/search.png" alt="">
+            <p>大象旅行><span>搜索结果</span></p>
+        </div>
+        <div class="xinxi clearfix">
+            <div class="left">
+                <div class="header">
+                    <span>商品信息</span>
+                    <span class="jg">价格</span>
+                </div>
+                <ul id="route">
+                    <li>
+                        <div class="img"><img src="img/search8.jpg" alt=""></div>
+                        <div class="text1">
+                            <p>【古韵陕西：西安+华山+黄河壶口冰瀑+延安 双飞5天】0购物·0自费 西安往返【贵宾团】</p>
+                            <br/>
+                            <p>全程0购物0自费，四星住宿！ 观摩世界八大奇迹之一【兵马俑】；欣赏【皮影戏】和中国古老摇滚乐【华阴老腔】；叹为观止的壶口冰瀑；感受华山险峻之俊秀；拜访延安重拾革命情怀；</p>
+                        </div>
+                        <div class="price">
+                            <p class="price_num">
+                                <span>&yen;</span>
+                                <span>4399</span>
+                                <span>起</span>
+                            </p>
+                            <p><a href="route_detail.html">查看详情</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img"><img src="img/search1.jpg" alt=""></div>
+                        <div class="text1">
+                            <p>北海双飞4天3晚自由行套票【含广州往返经济舱含税机票+3晚北海市区豪华型酒店】</p>
+                            <br/>
+                            <p>含广州往返经济舱含税机票，全程入住北海市区豪华型酒店！</p>
+                        </div>
+                        <div class="price">
+                            <p class="price_num">
+                                <span>&yen;</span>
+                                <span>699</span>
+                                <span>起</span>
+                            </p>
+                            <p><a href="route_detail.html">查看详情</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img"><img src="img/search2.jpg" alt=""></div>
+                        <div class="text1">
+                            <p>黑妞皇家旅行普吉岛攀牙湾大船星光之旅皮划艇日落休闲特色体验</p>
+                            <br/>
+                            <p>1-2月出发，网付立享￥1099/2人起！爆款位置有限，抢完即止！</p>
+                        </div>
+                        <div class="price">
+                            <p class="price_num">
+                                <span>&yen;</span>
+                                <span>999</span>
+                                <span>起</span>
+                            </p>
+                            <p><a href="route_detail.html">查看详情</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img"><img src="img/search3.jpg" alt=""></div>
+                        <div class="text1">
+                            <p>浪花朵朵旅行普吉岛皇帝岛珊瑚岛香蕉船拖拽伞水上项目</p>
+                            <br/>
+                            <p>1-2月出发，网付立享￥1099/2人起！爆款位置有限，抢完即止！</p>
+                        </div>
+                        <div class="price">
+                            <p class="price_num">
+                                <span>&yen;</span>
+                                <span>99</span>
+                                <span>起</span>
+                            </p>
+                            <p><a href="route_detail.html">查看详情</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img"><img src="img/search4.jpg" alt=""></div>
+                        <div class="text1">
+                            <p>环游记 泰国清迈Lila massage女子监狱spa 丽菈泰式按摩马杀鸡</p>
+                            <br/>
+                            <p>1-2月出发，网付立享￥1099/2人起！爆款位置有限，抢完即止！</p>
+                        </div>
+                        <div class="price">
+                            <p class="price_num">
+                                <span>&yen;</span>
+                                <span>199</span>
+                                <span>起</span>
+                            </p>
+                            <p><a href="route_detail.html">查看详情</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img"><img src="img/search5.jpg" alt=""></div>
+                        <div class="text1">
+                            <p>【越南 船游下龙湾+芒街+河内 高铁4天 贵宾团】巴亭广场 镇国寺【全程豪华酒店 越式炸鸡火锅宴】</p>
+                            <br/>
+                            <p>包船游—联合国教科文组织誉为世界自然遗产亦有海上桂林美誉的【下龙湾】！全程入住豪华酒店，尊享舒适体验！</p>
+                        </div>
+                        <div class="price">
+                            <p class="price_num">
+                                <span>&yen;</span>
+                                <span>799</span>
+                                <span>起</span>
+                            </p>
+                            <p><a href="route_detail.html">查看详情</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img"><img src="img/search6.jpg" alt=""></div>
+                        <div class="text1">
+                            <p>【新疆乌鲁木齐+天山天池+吐鲁番双飞六天 超贵团 自营】坎儿井 库姆塔格沙漠 二道桥国际大巴扎 野马古生态园【玩雪 品美食 赏汗血宝马+升级1晚超豪华酒店】</p>
+                            <p>高山湖泊与火洲成为鲜明的对比，这里不但有美景，有古城，有沙漠，更有古老的维吾尔民俗，让您眼花缭乱；品尝新疆美食过油肉拌面、手抓羊肉、锅包肉、烤羊肉、馕坑肉等等！</p>
+                        </div>
+                        <div class="price">
+                            <p class="price_num">
+                                <span>&yen;</span>
+                                <span>1999</span>
+                                <span>起</span>
+                            </p>
+                            <p><a href="route_detail.html">查看详情</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img"><img src="img/search7.jpg" alt=""></div>
+                        <div class="text1">
+                            <p>泰国芭提雅三合一日游芭提雅蒂芬妮人妖秀成人门票bigeye含接送</p>
+                            <br/>
+                            <p>1-2月出发，网付立享￥1099/2人起！爆款位置有限，抢完即止！</p>
+                        </div>
+                        <div class="price">
+                            <p class="price_num">
+                                <span>&yen;</span>
+                                <span>1589</span>
+                                <span>起</span>
+                            </p>
+                            <p><a href="route_detail.html">查看详情</a></p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="page_num_inf" >
+                    <i></i>&nbsp;共&nbsp;
+                    <span id="totalPage">1</span>&nbsp;页&nbsp;<span id="totalCount">8</span>&nbsp;条&nbsp;
+                </div>
+                <div>
+                    <ul class="pagination"  id="pageNum">
+                        <li class="threeword"><a href="javascript:;">首页</a></li>
+                        <li class="threeword"><a href="javascript:;">上一页</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a href="#">7</a></li>
+                        <li><a href="#">8</a></li>
+                        <li><a href="#">9</a></li>
+                        <li><a href="#">10</a></li>
+                        <li class="threeword"><a href="javascript:;">下一页</a></li>
+                        <li class="threeword"><a href="javascript:;">末页</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="top">
+                    <div class="hot">HOT</div>
+                    <span>热门推荐</span>
+                </div>
+                <ul id="hot_route">
+                        <li>
+                            <a href="route_detail.html?rid=1">
+                                <div class="left"><img src="img/04-search_09.jpg" alt=""></div>
+                                <div class="right">
+                                    <p>清远新银盏温泉度假村酒店/自由行套...</p>
+                                    <p>网付价<span>&yen;<span>899</span>起</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--引入头部-->
+<div id="footer"></div>
+<!--导入布局js，共享header和footer-->
+<script type="text/javascript" src="js/include.js"></script>
+<script>
+    //发送Ajax请求，置换列表中的数据
+    $(function () {
+        //搜索框的功能
+        //获取搜索框中的值
+        var search = location.search;
+        //  ?cid=5&rname=%E5%85%B5%E9%A9%AC%E4%BF%91
+        var rname = search.split("=")[2];
+        if (rname) {
+            //解码为汉字
+            rname = window.decodeURIComponent(rname);
+        }
+        //当页面加载完成后，调用load方法，发送Ajax请求，加载数据
+        var cid = 5;
+        var currentPage = 1;
+        load(cid,currentPage,rname);
+    });
+    function load(cid,currentPage,rname) {
+
+        //发送Ajax请求，请求route/pageQuery,传递cid
+        $.get("route/pageQuery",{cid:5,currentPage:currentPage,rname:rname},function (pageBean) {
+            //解析pageBean数据，展示到页面上
+            //1.分页工具条数据展示
+            //展示总页码和总记录数
+            $("#totalPage").html(pageBean.totalPage);
+            $("#totalCount").html(pageBean.totalCount);
+
+            //展示分页页码
+
+            var lis = "";
+            var fristPage = '<li class="threeword"><a href="javascript:load('+cid+','+i+',\''+rname+'\');">首页</a></li>';
+            //计算上一页码的值
+            var beforeNum = pageBean.currentPage - 1;
+            if (beforeNum <= 0) {
+                beforeNum = 1;
+            }
+            var beforePage = '<li class="threeword"><a href="javascript:load('+cid+','+beforeNum+',\''+rname+'\');">上一页</a></li>';
+            lis += fristPage;
+            lis += beforePage;
+            /**
+             * 展示分页页码格式
+             *      1.一共展示 10 个页码，能够达到前 5 后 4 的效果
+             *      2.如果前面不够 5 个，后面补齐 10 个
+             *      3.如果后边不足 4 个，前边补齐 10 个
+             */
+            //1.定义一个开始位置begin 结束位置 end
+            var begin;
+            var end;
+            //显示 10 个页面
+            if (pageBean.totalPage < 10) {
+                //总页面不够 10 个
+                begin = 1;
+                end = pageBean.totalPage;
+            } else {
+                //总页码超过 10 个
+                begin = pageBean.currentPage - 5;
+                end = pageBean.currentPage + 4;
+                //如果前面不够 5 个，后面补齐 10 个
+                if (begin < 1) {
+                    begin = 1;
+                    end = begin + 9;
+                }
+                if (end > pageBean.totalPage) {
+                    end = pageBean.totalPage;
+                    begin = end - 9;
+                }
+            }
+            for (var i = begin; i < end; i++) {
+                var li;
+                //判断，如果是当前页码，加上active属性  创建页面的li
+                if (pageBean.currentPage == i) {
+                    li = '<li class="active"><a href="javascript:load(' + cid + ',' + i + ',\''+rname+'\')">' + i + '</a></li>';
+                } else {
+                    li = '<li><a href="javascript:load('+cid+','+i+',\''+rname+'\')">'+i+'</a></li>';
+                }
+                //拼接字符串
+                lis += li;
+            }
+            //下一页
+            var nextNum = pageBean.currentPage + 1;
+            var lastNum = pageBean.totalPage;
+            if (nextNum >= lastNum) {
+                nextNum = lastNum;
+            }
+            var nextPage = '<li class="threeword"><a href="javascript:load('+cid+','+nextNum+',\''+rname+'\');">下一页</a></li>';
+            var lastPage = '<li class="threeword"><a href="javascript:load('+cid+','+lastNum+',\''+rname+'\');">末页</a></li>';
+            lis += nextPage;
+            lis += lastPage;
+            //将lis设置到ul中
+            $("#pageNum").html(lis)
+
+            //2.列表数据展示
+            var route_lis = "";
+            for (var i = 0; i < pageBean.list.length; i++) {
+                var route = pageBean.list[i];
+                var li = '<li>\n' +
+                    '                        <div class="img"><img src="'+route.rimage+'" style="width: 299px;"></div>\n' +
+                    '                        <div class="text1">\n' +
+                    '                            <p>'+route.rname+'</p>\n' +
+                    '                            <br/>\n' +
+                    '                            <p>'+route.routeIntroduce+'</p>\n' +
+                    '                        </div>\n' +
+                    '                        <div class="price">\n' +
+                    '                            <p class="price_num">\n' +
+                    '                                <span>&yen;</span>\n' +
+                    '                                <span>'+route.price+'</span>\n' +
+                    '                                <span>起</span>\n' +
+                    '                            </p>\n' +
+                    '                            <p><a href="route_detail.html?rid='+route.rid+'">查看详情</a></p>\n' +
+                    '                        </div>\n' +
+                    '                    </li>';
+                route_lis += li;
+            }
+            $("#route").html(route_lis);
+            //当完成查询后，定位到页面的的顶部，滚动到 0， 0 点
+            window.scrollTo(0,0);
+        })
+    }
+</script>
+<script>
+    /*
+           <ul id="hot_route">
+
+                    <li>
+                        <div class="left"><img src="img/04-search_09.jpg" alt=""></div>
+                        <div class="right">
+                            <p>清远新银盏温泉度假村酒店/自由行套...</p>
+                            <p>网付价<span>&yen;<span>899</span>起</span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+     */
+    $(function () {
+        $.get("route/findFavouriteRoute",{},function (route) {
+            var lis = '';
+            for (var i = 0; i < 6; i++) {
+                var li = '<li>\n' +
+                    '                            <a href="route_detail.html?rid='+route[i].rid+'">\n' +
+                    '                                <div class="left"><img src="'+route[i].rimage+'" alt=""></div>\n' +
+                    '                                <div class="right">\n' +
+                    '                                    <p>'+route[i].routeIntroduce+'</p>\n' +
+                    '                                    <p>网付价<span>&yen;<span>'+route[i].price+'</span>起</span>\n' +
+                    '                                    </p>\n' +
+                    '                                </div>\n' +
+                    '                            </a>\n' +
+                    '                        </li>';
+                lis += li;
+            }
+            $("#hot_route").html(lis);
+        })
+    })
+</script>
+</body>
+
+</html>

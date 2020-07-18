@@ -1,0 +1,43 @@
+.padding-top{
+    padding-top: 10px;
+}
+.search-btn{
+    float: left;
+    border: 2px solid yellowgreen;
+    width: 90px;
+    height: 35px;
+    padding: 20px;
+    background-color: yellowgreen;
+    text-align: center;
+    line-height: 0px;/*为啥行高设为0就竖直居中了*/
+    margin-top: 25px;
+}
+.search-input{
+    float: left;
+    border: 2px solid yellowgreen;
+    width: 400px;
+    height: 35px;
+    padding: 20px;
+    margin-top: 25px;
+}
+.bottom-line{
+    border-bottom: 2px solid yellowgreen;
+}
+.company{
+    text-align: center;
+    height: 60px;
+    background-color: yellowgreen;
+    line-height: 60px;
+}
+.padding-left{
+    padding-left: 60px;
+}
+.money{
+    color: red;
+}
+.navbar-margin-left{
+    margin-left: 40px;
+}
+.navbar-float{
+    float: right;
+}
